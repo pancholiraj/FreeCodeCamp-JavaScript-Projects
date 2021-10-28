@@ -1,0 +1,64 @@
+body {
+  background-color: rgb(236, 229, 229);
+  box-sizing: border-box;
+}
+main {
+  /* background-color: teal; */
+  width: 100%;
+  max-width: 35%;
+  margin: auto;
+  position: relative;
+  top: 10vh;
+}
+.container .heading {
+  text-align: center;
+  margin-bottom: 0;
+}
+.container .underline {
+  border: 2px solid blue;
+  max-width: 10%;
+  border-radius: 5px;
+}
+
+#box {
+  text-align: center;
+  padding: 50px;
+  max-width: 60%;
+  margin: auto;
+  margin-top: 25px;
+  background-color: white;
+  line-height: 30px;
+  border-radius: 15px;
+}
+
+#box img {
+  object-fit: cover;
+  /* width: 100%; */
+  width: 70%;
+  height: 250px;
+  /* height: 250px; */
+  border-radius: 50%;
+}
+
+.buttons .btn {
+  background: transparent;
+  border-color: transparent;
+  font-size: 30px;
+  color: cornflowerblue;
+  margin: 5px;
+}
+.buttons .rand {
+  font-size: 15px;
+  border: 3px solid cornflowerblue;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: rgb(221, 234, 255);
+  margin-bottom: 0;
+}
+#box .job {
+  color: cornflowerblue;
+}
+
+#box .review {
+  color: rgb(30, 9, 8);
+}

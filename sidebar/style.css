@@ -1,0 +1,59 @@
+body {
+  box-sizing: border-box;
+}
+.sidebar-toggle {
+  background: transparent;
+  border: none;
+  font-size: 2rem;
+  width: 100%;
+  text-align: end;
+}
+
+.sidebar-toggle :hover {
+  transform: rotate(90deg);
+  transition: 0.3s ease-in;
+}
+
+.sidebar {
+  position: fixed;
+  background-color: teal;
+  width: 100%;
+  max-width: 30vw;
+  top: 0px;
+  left: 0px;
+  height: 100vh;
+}
+
+.sidebar-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.sidebar-header h1,
+.fas {
+  font-size: 2rem;
+}
+.sidebar-header .fas {
+  color: red;
+}
+
+.sidebar-header .fas:hover {
+  transform: scale(1.5);
+  transition: 0.3 ease-in;
+}
+
+.links li {
+  list-style: none;
+  margin: 2rem;
+  font-size: 1.5rem;
+}
+.links li :hover {
+  color: cornflowerblue;
+}
+.links li a {
+  text-decoration: none;
+  color: black;
+}
+.clickToggle {
+  display: none;
+}

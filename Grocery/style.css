@@ -1,0 +1,102 @@
+/* global */
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background-color: whitesmoke;
+}
+/* centring all */
+.section-center {
+  width: 100%;
+  max-width: 40%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: white;
+  position: relative;
+  top: 20vh;
+  border-radius: 30px;
+}
+
+/* Form */
+.grocery-form {
+  padding: 15px;
+}
+.para {
+  visibility: hidden;
+}
+.grocery-form p {
+  font-size: 16px;
+  text-align: center;
+  /* color: white;
+  background-color: rgba(0, 128, 43, 0.541); */
+}
+.alert-danger {
+  background-color: #721c25;
+  color: #f8d7da;
+  border-radius: 15px;
+  visibility: visible;
+}
+.alert-success {
+  background-color: #155724;
+  color: #d4edda;
+  border-radius: 15px;
+  visibility: visible;
+}
+/* .visibleAlert {
+} */
+.grocery-form h3 {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.form-control input,
+button {
+  /* font-size: 20px; */
+  padding: 10px 30px;
+  border: none;
+}
+
+.form-control input {
+  /* border-start-start-radius: 15px; */
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  background-color: rgba(100, 148, 237, 0.301);
+}
+.form-control button {
+  background-color: cornflowerblue;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+/* List */
+.grocery-container {
+  visibility: hidden;
+}
+.visibleResult {
+  visibility: visible;
+}
+.grocery-container .grocery-list .grocery-item {
+  background-color: white;
+  display: flex;
+  /* justify-content: space-; */
+}
+.grocery-item .title {
+  font-size: 25px;
+  width: 80%;
+}
+.grocery-item .edit-btn,
+.delete-btn {
+  color: green;
+  background: transparent;
+}
+.grocery-item .delete-btn {
+  color: red;
+}
+.grocery-container .clear-btn {
+  background-color: white;
+  color: red;
+  text-transform: capitalize;
+  font-size: 20px;
+  border-end-end-radius: 15px;
+  border-end-start-radius: 15px;
+  width: 100%;
+}

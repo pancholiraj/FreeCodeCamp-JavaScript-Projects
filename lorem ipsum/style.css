@@ -1,0 +1,43 @@
+body {
+  background-color: whitesmoke;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+.section-center {
+  width: 100%;
+  max-width: 40%;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  top: 5vh;
+}
+.section-center h3 {
+  text-transform: uppercase;
+  font-size: 2.8rem;
+  font-weight: 1700;
+}
+
+.section-center .lorem-form label {
+  text-transform: capitalize;
+  color: green;
+  font-size: 2rem;
+}
+.lorem-form input {
+  border: none;
+  font-size: 1.4rem;
+  width: 10%;
+}
+.lorem-form .btn {
+  border: none;
+  background-color: cornflowerblue;
+  font-size: 1rem;
+  padding: 0.3rem;
+  border-radius: 15px;
+}
+
+.lorem-text {
+  margin: 20px;
+  font-size: 1.1rem;
+  text-align: center;
+}
